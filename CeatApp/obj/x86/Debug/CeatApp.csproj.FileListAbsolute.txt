@@ -6,3 +6,4 @@ C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.csproj.GenerateResource.Cache
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.exe
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.pdb
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.csprojResolveAssemblyReference.cache
+C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.Menu.resources
