@@ -39,33 +39,27 @@ namespace CeatApp
             
         }
 
-        private void txtUsuario_Click(object sender, EventArgs e)
+        private void txt_Click(object sender, EventArgs e)
         {
+            TextBox Txtbx= (TextBox)sender;
             
-            if (txtUsuario.Text=="Usuario")
+            if (Txtbx.Text==Txtbx.Tag.ToString())
             {
-                //Design.vaciartxtbox((TextBox)sender);
+                if (Txtbx.Text == "Contraseña") Txtbx.PasswordChar = '*';
+          
+                Txtbx.ForeColor = Color.Black;
+                Txtbx.Clear();
             }
         }
 
       
-
-        private void txtContrasenia_Click(object sender, EventArgs e)
-        {
-            txtContrasenia.PasswordChar = '*';
-
-            if (txtContrasenia.Text == "Contraseña")
-            {
-                //Disenio.vaciartxtbox((TextBox)sender);
-            }
-        }
-
       
 
         private void txtUsuario_Leave(object sender, EventArgs e)
         {
             if ( txtUsuario.Text== string.Empty)
-            {           
+            {
+                txtUsuario.ForeColor = Color.Silver;
                 txtUsuario.Text = "Usuario";
             }
         }
@@ -74,16 +68,13 @@ namespace CeatApp
         {
             if (txtContrasenia.Text == string.Empty)
             {
+                txtContrasenia.ForeColor = Color.Silver;
                 txtContrasenia.PasswordChar = '\0';
                 txtContrasenia.Text = "Contraseña";
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+       
         
 
        

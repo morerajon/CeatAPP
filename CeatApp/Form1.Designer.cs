@@ -74,27 +74,29 @@
             // txtUsuario
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtUsuario.ForeColor = System.Drawing.Color.Silver;
             this.txtUsuario.Location = new System.Drawing.Point(286, 112);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(238, 22);
             this.txtUsuario.TabIndex = 5;
+            this.txtUsuario.Tag = "Usuario";
             this.txtUsuario.Text = "Usuario";
             this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtUsuario.Click += new System.EventHandler(this.txtUsuario_Click);
+            this.txtUsuario.Click += new System.EventHandler(this.txt_Click);
             this.txtUsuario.Leave += new System.EventHandler(this.txtUsuario_Leave);
             // 
             // txtContrasenia
             // 
             this.txtContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContrasenia.ForeColor = System.Drawing.SystemColors.InactiveCaption;
+            this.txtContrasenia.ForeColor = System.Drawing.Color.Silver;
             this.txtContrasenia.Location = new System.Drawing.Point(285, 151);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(238, 22);
             this.txtContrasenia.TabIndex = 6;
+            this.txtContrasenia.Tag = "Contraseña";
             this.txtContrasenia.Text = "Contraseña";
             this.txtContrasenia.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtContrasenia.Click += new System.EventHandler(this.txtContrasenia_Click);
+            this.txtContrasenia.Click += new System.EventHandler(this.txt_Click);
             this.txtContrasenia.Leave += new System.EventHandler(this.txtContrasenia_Leave);
             // 
             // BtnRecupero
@@ -123,7 +125,6 @@
             this.btnLogin.TabIndex = 8;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
