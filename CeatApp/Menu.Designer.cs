@@ -65,7 +65,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(94)))), ((int)(((byte)(140)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
             this.panel1.Controls.Add(this.pnlBotonesM);
             this.panel1.Controls.Add(this.btnCerrarSesion);
             this.panel1.Location = new System.Drawing.Point(17, 15);
@@ -75,7 +75,7 @@
             // 
             // pnlBotonesM
             // 
-            this.pnlBotonesM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(94)))), ((int)(((byte)(140)))));
+            this.pnlBotonesM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
             this.pnlBotonesM.Controls.Add(this.btnCerrarSesion1);
             this.pnlBotonesM.Controls.Add(this.panel4);
             this.pnlBotonesM.Controls.Add(this.btnClaves);
@@ -94,8 +94,8 @@
             this.btnCerrarSesion1.BackColor = System.Drawing.Color.Transparent;
             this.btnCerrarSesion1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnCerrarSesion1.FlatAppearance.BorderSize = 0;
-            this.btnCerrarSesion1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
-            this.btnCerrarSesion1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
+            this.btnCerrarSesion1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
+            this.btnCerrarSesion1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
             this.btnCerrarSesion1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrarSesion1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrarSesion1.ForeColor = System.Drawing.Color.White;
@@ -125,7 +125,8 @@
             this.btnClaves.BackColor = System.Drawing.Color.Transparent;
             this.btnClaves.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnClaves.FlatAppearance.BorderSize = 0;
-            this.btnClaves.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
+            this.btnClaves.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnClaves.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.btnClaves.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClaves.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClaves.ForeColor = System.Drawing.Color.White;
@@ -147,8 +148,8 @@
             this.btnMensajes.BackColor = System.Drawing.Color.Transparent;
             this.btnMensajes.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMensajes.FlatAppearance.BorderSize = 0;
-            this.btnMensajes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
-            this.btnMensajes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
+            this.btnMensajes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnMensajes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.btnMensajes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMensajes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMensajes.ForeColor = System.Drawing.Color.White;
@@ -170,7 +171,8 @@
             this.btnPerfil.BackColor = System.Drawing.Color.Transparent;
             this.btnPerfil.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPerfil.FlatAppearance.BorderSize = 0;
-            this.btnPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
+            this.btnPerfil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnPerfil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPerfil.ForeColor = System.Drawing.Color.White;
@@ -192,8 +194,8 @@
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
             this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnHome.FlatAppearance.BorderSize = 0;
-            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
-            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(88)))), ((int)(((byte)(89)))));
+            this.btnHome.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnHome.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.ForeColor = System.Drawing.Color.White;
@@ -235,6 +237,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.ClientSize = new System.Drawing.Size(1323, 625);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrar);

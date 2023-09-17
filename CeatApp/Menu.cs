@@ -31,7 +31,7 @@ namespace CeatApp
         private void btn_MouseEnter(object sender, EventArgs e)
         {
             Button boton = (Button)sender;
-            boton.ForeColor = Color.Cyan;
+            if (boton.Name != "btnCerrarSesion1") boton.ForeColor = Color.Cyan;
             boton.Image = Image.FromFile(path + boton.Name + "B.png");
 
         }
