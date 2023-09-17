@@ -40,6 +40,7 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.pnlSecundario = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.pnlBotonesM.SuspendLayout();
             this.SuspendLayout();
@@ -53,7 +54,7 @@
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(1281, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(1306, 3);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(41, 26);
             this.btnCerrar.TabIndex = 4;
@@ -68,14 +69,16 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
             this.panel1.Controls.Add(this.pnlBotonesM);
             this.panel1.Controls.Add(this.btnCerrarSesion);
-            this.panel1.Location = new System.Drawing.Point(17, 15);
+            this.panel1.Location = new System.Drawing.Point(17, 35);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(215, 579);
+            this.panel1.Size = new System.Drawing.Size(215, 708);
             this.panel1.TabIndex = 5;
             // 
             // pnlBotonesM
             // 
-            this.pnlBotonesM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
+            this.pnlBotonesM.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlBotonesM.BackColor = System.Drawing.Color.Transparent;
             this.pnlBotonesM.Controls.Add(this.btnCerrarSesion1);
             this.pnlBotonesM.Controls.Add(this.panel4);
             this.pnlBotonesM.Controls.Add(this.btnClaves);
@@ -83,10 +86,9 @@
             this.pnlBotonesM.Controls.Add(this.btnPerfil);
             this.pnlBotonesM.Controls.Add(this.btnHome);
             this.pnlBotonesM.Controls.Add(this.panel3);
-            this.pnlBotonesM.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlBotonesM.Location = new System.Drawing.Point(17, 0);
             this.pnlBotonesM.Name = "pnlBotonesM";
-            this.pnlBotonesM.Size = new System.Drawing.Size(198, 579);
+            this.pnlBotonesM.Size = new System.Drawing.Size(228, 705);
             this.pnlBotonesM.TabIndex = 2;
             // 
             // btnCerrarSesion1
@@ -101,9 +103,9 @@
             this.btnCerrarSesion1.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion1.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion1.Image")));
             this.btnCerrarSesion1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion1.Location = new System.Drawing.Point(0, 475);
+            this.btnCerrarSesion1.Location = new System.Drawing.Point(0, 619);
             this.btnCerrarSesion1.Name = "btnCerrarSesion1";
-            this.btnCerrarSesion1.Size = new System.Drawing.Size(198, 74);
+            this.btnCerrarSesion1.Size = new System.Drawing.Size(228, 74);
             this.btnCerrarSesion1.TabIndex = 4;
             this.btnCerrarSesion1.Text = "    Cerrar sesion";
             this.btnCerrarSesion1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -115,9 +117,9 @@
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 549);
+            this.panel4.Location = new System.Drawing.Point(0, 693);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(198, 30);
+            this.panel4.Size = new System.Drawing.Size(228, 12);
             this.panel4.TabIndex = 5;
             // 
             // btnClaves
@@ -134,7 +136,7 @@
             this.btnClaves.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClaves.Location = new System.Drawing.Point(0, 252);
             this.btnClaves.Name = "btnClaves";
-            this.btnClaves.Size = new System.Drawing.Size(198, 74);
+            this.btnClaves.Size = new System.Drawing.Size(228, 74);
             this.btnClaves.TabIndex = 3;
             this.btnClaves.Text = "    Seguridad";
             this.btnClaves.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -157,7 +159,7 @@
             this.btnMensajes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMensajes.Location = new System.Drawing.Point(0, 178);
             this.btnMensajes.Name = "btnMensajes";
-            this.btnMensajes.Size = new System.Drawing.Size(198, 74);
+            this.btnMensajes.Size = new System.Drawing.Size(228, 74);
             this.btnMensajes.TabIndex = 2;
             this.btnMensajes.Text = "    Mensajes";
             this.btnMensajes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -180,7 +182,7 @@
             this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPerfil.Location = new System.Drawing.Point(0, 104);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(198, 74);
+            this.btnPerfil.Size = new System.Drawing.Size(228, 74);
             this.btnPerfil.TabIndex = 1;
             this.btnPerfil.Text = "    Perfil";
             this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -203,7 +205,7 @@
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(0, 30);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(198, 74);
+            this.btnHome.Size = new System.Drawing.Size(228, 74);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "    Home";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,7 +219,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(198, 30);
+            this.panel3.Size = new System.Drawing.Size(228, 30);
             this.panel3.TabIndex = 0;
             // 
             // btnCerrarSesion
@@ -233,12 +235,24 @@
             this.btnCerrarSesion.Text = "Cerrar sesion";
             this.btnCerrarSesion.UseVisualStyleBackColor = false;
             // 
+            // pnlSecundario
+            // 
+            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlSecundario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(229)))), ((int)(((byte)(233)))));
+            this.pnlSecundario.Location = new System.Drawing.Point(255, 35);
+            this.pnlSecundario.Name = "pnlSecundario";
+            this.pnlSecundario.Size = new System.Drawing.Size(1081, 708);
+            this.pnlSecundario.TabIndex = 6;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(1323, 625);
+            this.ClientSize = new System.Drawing.Size(1348, 765);
+            this.Controls.Add(this.pnlSecundario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -264,5 +278,6 @@
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Panel pnlSecundario;
     }
 }
