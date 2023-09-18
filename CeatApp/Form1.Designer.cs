@@ -52,7 +52,7 @@
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(495, 0);
+            this.btnCerrar.Location = new System.Drawing.Point(486, 0);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(41, 26);
             this.btnCerrar.TabIndex = 3;
@@ -66,7 +66,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(267, 328);
+            this.pictureBox1.Size = new System.Drawing.Size(273, 328);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -75,7 +75,7 @@
             // 
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.Silver;
-            this.txtUsuario.Location = new System.Drawing.Point(286, 112);
+            this.txtUsuario.Location = new System.Drawing.Point(283, 115);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(238, 22);
             this.txtUsuario.TabIndex = 5;
@@ -89,7 +89,7 @@
             // 
             this.txtContrasenia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContrasenia.ForeColor = System.Drawing.Color.Silver;
-            this.txtContrasenia.Location = new System.Drawing.Point(285, 151);
+            this.txtContrasenia.Location = new System.Drawing.Point(283, 154);
             this.txtContrasenia.Name = "txtContrasenia";
             this.txtContrasenia.Size = new System.Drawing.Size(238, 22);
             this.txtContrasenia.TabIndex = 6;
@@ -106,7 +106,7 @@
             this.BtnRecupero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnRecupero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRecupero.ForeColor = System.Drawing.Color.Cyan;
-            this.BtnRecupero.Location = new System.Drawing.Point(285, 202);
+            this.BtnRecupero.Location = new System.Drawing.Point(283, 205);
             this.BtnRecupero.Name = "BtnRecupero";
             this.BtnRecupero.Size = new System.Drawing.Size(238, 23);
             this.BtnRecupero.TabIndex = 7;
@@ -119,7 +119,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnLogin.Location = new System.Drawing.Point(283, 231);
+            this.btnLogin.Location = new System.Drawing.Point(283, 234);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(238, 26);
             this.btnLogin.TabIndex = 8;
@@ -131,7 +131,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(359, 63);
+            this.label1.Location = new System.Drawing.Point(353, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 25);
             this.label1.TabIndex = 9;
@@ -140,7 +140,7 @@
             // pBMostrarOcultar
             // 
             this.pBMostrarOcultar.Image = ((System.Drawing.Image)(resources.GetObject("pBMostrarOcultar.Image")));
-            this.pBMostrarOcultar.Location = new System.Drawing.Point(500, 152);
+            this.pBMostrarOcultar.Location = new System.Drawing.Point(500, 156);
             this.pBMostrarOcultar.Name = "pBMostrarOcultar";
             this.pBMostrarOcultar.Size = new System.Drawing.Size(19, 19);
             this.pBMostrarOcultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -160,7 +160,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(536, 328);
+            this.ClientSize = new System.Drawing.Size(527, 328);
             this.Controls.Add(this.pBMostrarOcultar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnRecupero);

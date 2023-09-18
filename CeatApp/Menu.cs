@@ -42,6 +42,7 @@ namespace CeatApp
             RedondearBordes(boton, 0);
             boton.ForeColor = Color.White;
             boton.Image = Image.FromFile(path + boton.Name + "A.png");
+            boton.ImageAlign = ContentAlignment.MiddleLeft;
         }
 
         private void btn_MouseEnter(object sender, EventArgs e)
@@ -51,6 +52,12 @@ namespace CeatApp
             RedondearBordes(boton, 70);
             if (boton.Name != "btnCerrarSesion1") boton.ForeColor = Color.Cyan;
             boton.Image = Image.FromFile(path + boton.Name + "B.png");
+            boton.ImageAlign = ContentAlignment.MiddleCenter;
+
+        }
+
+        private void pnlBotonesM_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

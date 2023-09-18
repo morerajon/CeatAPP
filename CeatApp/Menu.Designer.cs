@@ -88,8 +88,9 @@
             this.pnlBotonesM.Controls.Add(this.panel3);
             this.pnlBotonesM.Location = new System.Drawing.Point(17, 0);
             this.pnlBotonesM.Name = "pnlBotonesM";
-            this.pnlBotonesM.Size = new System.Drawing.Size(228, 705);
+            this.pnlBotonesM.Size = new System.Drawing.Size(225, 705);
             this.pnlBotonesM.TabIndex = 2;
+            this.pnlBotonesM.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBotonesM_Paint);
             // 
             // btnCerrarSesion1
             // 
@@ -105,7 +106,7 @@
             this.btnCerrarSesion1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCerrarSesion1.Location = new System.Drawing.Point(0, 619);
             this.btnCerrarSesion1.Name = "btnCerrarSesion1";
-            this.btnCerrarSesion1.Size = new System.Drawing.Size(228, 74);
+            this.btnCerrarSesion1.Size = new System.Drawing.Size(225, 74);
             this.btnCerrarSesion1.TabIndex = 4;
             this.btnCerrarSesion1.Text = "    Cerrar sesion";
             this.btnCerrarSesion1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -119,7 +120,7 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 693);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(228, 12);
+            this.panel4.Size = new System.Drawing.Size(225, 12);
             this.panel4.TabIndex = 5;
             // 
             // btnClaves
@@ -136,7 +137,7 @@
             this.btnClaves.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClaves.Location = new System.Drawing.Point(0, 252);
             this.btnClaves.Name = "btnClaves";
-            this.btnClaves.Size = new System.Drawing.Size(228, 74);
+            this.btnClaves.Size = new System.Drawing.Size(225, 74);
             this.btnClaves.TabIndex = 3;
             this.btnClaves.Text = "    Seguridad";
             this.btnClaves.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -159,10 +160,9 @@
             this.btnMensajes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMensajes.Location = new System.Drawing.Point(0, 178);
             this.btnMensajes.Name = "btnMensajes";
-            this.btnMensajes.Size = new System.Drawing.Size(228, 74);
+            this.btnMensajes.Size = new System.Drawing.Size(225, 74);
             this.btnMensajes.TabIndex = 2;
             this.btnMensajes.Text = "    Mensajes";
-            this.btnMensajes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMensajes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMensajes.UseVisualStyleBackColor = false;
             this.btnMensajes.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
@@ -182,7 +182,7 @@
             this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPerfil.Location = new System.Drawing.Point(0, 104);
             this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(228, 74);
+            this.btnPerfil.Size = new System.Drawing.Size(225, 74);
             this.btnPerfil.TabIndex = 1;
             this.btnPerfil.Text = "    Perfil";
             this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,7 +205,7 @@
             this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.Location = new System.Drawing.Point(0, 30);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(228, 74);
+            this.btnHome.Size = new System.Drawing.Size(225, 74);
             this.btnHome.TabIndex = 0;
             this.btnHome.Text = "    Home";
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -219,7 +219,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(228, 30);
+            this.panel3.Size = new System.Drawing.Size(225, 30);
             this.panel3.TabIndex = 0;
             // 
             // btnCerrarSesion
