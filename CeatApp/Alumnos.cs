@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace CeatApp
+{
+    public partial class Alumnos : Form
+    {
+        public Alumnos()
+        {
+            InitializeComponent();
+            logica.RedondearBordes(this, 20);
+        }
+
+        private void Alumnos_Load(object sender, EventArgs e)
+        {
+           
+        }
+    }
+}

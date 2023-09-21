@@ -32,6 +32,7 @@
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlBotonesM = new System.Windows.Forms.Panel();
+            this.btnAlumnos = new System.Windows.Forms.Button();
             this.btnCerrarSesion1 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnClaves = new System.Windows.Forms.Button();
@@ -41,8 +42,14 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.pnlSecundario = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.pnlCentral = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.pnlBotonesM.SuspendLayout();
+            this.pnlSecundario.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCerrar
@@ -54,7 +61,7 @@
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(1306, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(1344, 3);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(41, 26);
             this.btnCerrar.TabIndex = 4;
@@ -79,6 +86,7 @@
             this.pnlBotonesM.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlBotonesM.BackColor = System.Drawing.Color.Transparent;
+            this.pnlBotonesM.Controls.Add(this.btnAlumnos);
             this.pnlBotonesM.Controls.Add(this.btnCerrarSesion1);
             this.pnlBotonesM.Controls.Add(this.panel4);
             this.pnlBotonesM.Controls.Add(this.btnClaves);
@@ -90,7 +98,30 @@
             this.pnlBotonesM.Name = "pnlBotonesM";
             this.pnlBotonesM.Size = new System.Drawing.Size(225, 705);
             this.pnlBotonesM.TabIndex = 2;
-            this.pnlBotonesM.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBotonesM_Paint);
+            // 
+            // btnAlumnos
+            // 
+            this.btnAlumnos.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlumnos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAlumnos.FlatAppearance.BorderSize = 0;
+            this.btnAlumnos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnAlumnos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnAlumnos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlumnos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlumnos.ForeColor = System.Drawing.Color.White;
+            this.btnAlumnos.Image = ((System.Drawing.Image)(resources.GetObject("btnAlumnos.Image")));
+            this.btnAlumnos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlumnos.Location = new System.Drawing.Point(0, 326);
+            this.btnAlumnos.Name = "btnAlumnos";
+            this.btnAlumnos.Size = new System.Drawing.Size(225, 74);
+            this.btnAlumnos.TabIndex = 6;
+            this.btnAlumnos.Text = "    Alumnos";
+            this.btnAlumnos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlumnos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAlumnos.UseVisualStyleBackColor = false;
+            this.btnAlumnos.Click += new System.EventHandler(this.btnAlumnos_Click);
+            this.btnAlumnos.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
+            this.btnAlumnos.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
             // btnCerrarSesion1
             // 
@@ -240,18 +271,69 @@
             this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlSecundario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(229)))), ((int)(((byte)(233)))));
+            this.pnlSecundario.BackColor = System.Drawing.Color.White;
+            this.pnlSecundario.Controls.Add(this.panel9);
+            this.pnlSecundario.Controls.Add(this.panel8);
+            this.pnlSecundario.Controls.Add(this.panel7);
+            this.pnlSecundario.Controls.Add(this.panel6);
+            this.pnlSecundario.Controls.Add(this.pnlCentral);
             this.pnlSecundario.Location = new System.Drawing.Point(255, 35);
             this.pnlSecundario.Name = "pnlSecundario";
-            this.pnlSecundario.Size = new System.Drawing.Size(1081, 708);
+            this.pnlSecundario.Size = new System.Drawing.Size(1119, 718);
             this.pnlSecundario.TabIndex = 6;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Black;
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel9.Location = new System.Drawing.Point(20, 693);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1079, 25);
+            this.panel9.TabIndex = 12;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(20, 0);
+            this.panel8.MaximumSize = new System.Drawing.Size(1071, 698);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1071, 20);
+            this.panel8.TabIndex = 11;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel7.Location = new System.Drawing.Point(1099, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(20, 718);
+            this.panel7.TabIndex = 10;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.Black;
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel6.Location = new System.Drawing.Point(0, 0);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(20, 718);
+            this.panel6.TabIndex = 9;
+            // 
+            // pnlCentral
+            // 
+            this.pnlCentral.BackColor = System.Drawing.Color.DarkRed;
+            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlCentral.Location = new System.Drawing.Point(0, 0);
+            this.pnlCentral.Name = "pnlCentral";
+            this.pnlCentral.Size = new System.Drawing.Size(1119, 718);
+            this.pnlCentral.TabIndex = 7;
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(1348, 765);
+            this.ClientSize = new System.Drawing.Size(1386, 765);
             this.Controls.Add(this.pnlSecundario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrar);
@@ -261,6 +343,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.pnlBotonesM.ResumeLayout(false);
+            this.pnlSecundario.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -279,5 +362,11 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Panel pnlSecundario;
+        private System.Windows.Forms.Button btnAlumnos;
+        private System.Windows.Forms.Panel pnlCentral;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel6;
     }
 }
