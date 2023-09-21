@@ -71,8 +71,8 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
             this.panel1.Controls.Add(this.pnlBotonesM);
             this.panel1.Controls.Add(this.btnCerrarSesion);
@@ -83,8 +83,8 @@
             // 
             // pnlBotonesM
             // 
-            this.pnlBotonesM.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlBotonesM.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlBotonesM.BackColor = System.Drawing.Color.Transparent;
             this.pnlBotonesM.Controls.Add(this.btnAlumnos);
             this.pnlBotonesM.Controls.Add(this.btnCerrarSesion1);
@@ -125,8 +125,8 @@
             // 
             // btnCerrarSesion1
             // 
+            this.btnCerrarSesion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCerrarSesion1.BackColor = System.Drawing.Color.Transparent;
-            this.btnCerrarSesion1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnCerrarSesion1.FlatAppearance.BorderSize = 0;
             this.btnCerrarSesion1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
             this.btnCerrarSesion1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
@@ -268,9 +268,9 @@
             // 
             // pnlSecundario
             // 
-            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSecundario.BackColor = System.Drawing.Color.White;
             this.pnlSecundario.Controls.Add(this.panel9);
             this.pnlSecundario.Controls.Add(this.panel8);
