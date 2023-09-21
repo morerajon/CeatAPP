@@ -35,10 +35,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(229)))), ((int)(((byte)(233)))));
-            this.ClientSize = new System.Drawing.Size(1149, 509);
+            this.ClientSize = new System.Drawing.Size(1149, 643);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Alumnos";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Alumnos";
             this.Load += new System.EventHandler(this.Alumnos_Load);
             this.ResumeLayout(false);

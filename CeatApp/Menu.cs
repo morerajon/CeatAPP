@@ -14,12 +14,14 @@ namespace CeatApp
     {
         
         private Form formActivo = null;
+        string path = "C:\\CeatApp\\CeatApp\\Imagenes\\";
         
         public Menu()
         {
             InitializeComponent();
             logica.RedondearBordes(panel1, 20);
-            logica.RedondearBordes(pnlSecundario,30);
+            logica.RedondearBordes(pnlSecundario,20);
+            
         }
 
 
@@ -29,12 +31,12 @@ namespace CeatApp
             formhijo.TopLevel = false;
             formhijo.FormBorderStyle = FormBorderStyle.None;
             formhijo.Dock = DockStyle.Fill;
-            pnlCentral.Controls.Add(formhijo);
-            pnlCentral.Tag = formhijo;
+            pnlSecundario.Controls.Add(formhijo);
+            pnlSecundario.Tag = formhijo;
             formhijo.BringToFront();
             formhijo.Show();
         }
-        string path="C:\\CeatApp\\CeatApp\\Imagenes\\";
+        
 
        
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -65,6 +67,11 @@ namespace CeatApp
         private void btnAlumnos_Click(object sender, EventArgs e)
         {
             FormHijo(new Alumnos());
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
         }
 
        

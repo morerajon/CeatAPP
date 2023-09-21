@@ -42,14 +42,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.pnlSecundario = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pnlCentral = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.pnlBotonesM.SuspendLayout();
-            this.pnlSecundario.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCerrar
@@ -268,65 +262,14 @@
             // 
             // pnlSecundario
             // 
-            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
+            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSecundario.BackColor = System.Drawing.Color.White;
-            this.pnlSecundario.Controls.Add(this.panel9);
-            this.pnlSecundario.Controls.Add(this.panel8);
-            this.pnlSecundario.Controls.Add(this.panel7);
-            this.pnlSecundario.Controls.Add(this.panel6);
-            this.pnlSecundario.Controls.Add(this.pnlCentral);
             this.pnlSecundario.Location = new System.Drawing.Point(255, 35);
             this.pnlSecundario.Name = "pnlSecundario";
-            this.pnlSecundario.Size = new System.Drawing.Size(1119, 718);
+            this.pnlSecundario.Padding = new System.Windows.Forms.Padding(0, 0, 0, 400);
+            this.pnlSecundario.Size = new System.Drawing.Size(1101, 708);
             this.pnlSecundario.TabIndex = 6;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Black;
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel9.Location = new System.Drawing.Point(20, 693);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1079, 25);
-            this.panel9.TabIndex = 12;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Black;
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(20, 0);
-            this.panel8.MaximumSize = new System.Drawing.Size(1071, 698);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1071, 20);
-            this.panel8.TabIndex = 11;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel7.Location = new System.Drawing.Point(1099, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(20, 718);
-            this.panel7.TabIndex = 10;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(20, 718);
-            this.panel6.TabIndex = 9;
-            // 
-            // pnlCentral
-            // 
-            this.pnlCentral.BackColor = System.Drawing.Color.DarkRed;
-            this.pnlCentral.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlCentral.Location = new System.Drawing.Point(0, 0);
-            this.pnlCentral.Name = "pnlCentral";
-            this.pnlCentral.Size = new System.Drawing.Size(1119, 718);
-            this.pnlCentral.TabIndex = 7;
             // 
             // Menu
             // 
@@ -341,9 +284,9 @@
             this.Name = "Menu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.panel1.ResumeLayout(false);
             this.pnlBotonesM.ResumeLayout(false);
-            this.pnlSecundario.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -363,10 +306,5 @@
         private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Panel pnlSecundario;
         private System.Windows.Forms.Button btnAlumnos;
-        private System.Windows.Forms.Panel pnlCentral;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel6;
     }
 }

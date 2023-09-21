@@ -14,7 +14,7 @@ namespace CeatApp
         public Alumnos()
         {
             InitializeComponent();
-            logica.RedondearBordes(this, 20);
+           
         }
 
         private void Alumnos_Load(object sender, EventArgs e)
