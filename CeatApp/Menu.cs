@@ -42,6 +42,7 @@ namespace CeatApp
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit(); // Cierra por completo la app
         }
 
         private void btn_MouseLeave(object sender, EventArgs e)

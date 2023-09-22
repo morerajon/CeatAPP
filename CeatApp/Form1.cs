@@ -79,6 +79,8 @@ namespace CeatApp
             Menu menu = new Menu();
             menu.Show();
 
+            this.Hide();// escondes esta ventana Login
+
         }
 
        

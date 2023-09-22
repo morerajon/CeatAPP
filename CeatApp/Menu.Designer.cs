@@ -52,12 +52,12 @@
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(5)))), ((int)(((byte)(25)))));
             this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(12)))), ((int)(((byte)(21)))));
             this.btnCerrar.FlatAppearance.BorderSize = 2;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCerrar.Location = new System.Drawing.Point(1344, 3);
+            this.btnCerrar.Location = new System.Drawing.Point(957, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(41, 26);
+            this.btnCerrar.Size = new System.Drawing.Size(41, 20);
             this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Text = "X";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -65,14 +65,13 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(52)))), ((int)(((byte)(97)))));
             this.panel1.Controls.Add(this.pnlBotonesM);
             this.panel1.Controls.Add(this.btnCerrarSesion);
-            this.panel1.Location = new System.Drawing.Point(17, 35);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(20, 30);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(215, 708);
+            this.panel1.Size = new System.Drawing.Size(215, 712);
             this.panel1.TabIndex = 5;
             // 
             // pnlBotonesM
@@ -90,7 +89,7 @@
             this.pnlBotonesM.Controls.Add(this.panel3);
             this.pnlBotonesM.Location = new System.Drawing.Point(17, 0);
             this.pnlBotonesM.Name = "pnlBotonesM";
-            this.pnlBotonesM.Size = new System.Drawing.Size(225, 705);
+            this.pnlBotonesM.Size = new System.Drawing.Size(225, 709);
             this.pnlBotonesM.TabIndex = 2;
             // 
             // btnAlumnos
@@ -119,8 +118,8 @@
             // 
             // btnCerrarSesion1
             // 
+            this.btnCerrarSesion1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnCerrarSesion1.BackColor = System.Drawing.Color.Transparent;
-            this.btnCerrarSesion1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnCerrarSesion1.FlatAppearance.BorderSize = 0;
             this.btnCerrarSesion1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
             this.btnCerrarSesion1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(28)))), ((int)(((byte)(19)))));
@@ -129,7 +128,7 @@
             this.btnCerrarSesion1.ForeColor = System.Drawing.Color.White;
             this.btnCerrarSesion1.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrarSesion1.Image")));
             this.btnCerrarSesion1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrarSesion1.Location = new System.Drawing.Point(0, 619);
+            this.btnCerrarSesion1.Location = new System.Drawing.Point(0, 623);
             this.btnCerrarSesion1.Name = "btnCerrarSesion1";
             this.btnCerrarSesion1.Size = new System.Drawing.Size(225, 74);
             this.btnCerrarSesion1.TabIndex = 4;
@@ -143,7 +142,7 @@
             // panel4
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 693);
+            this.panel4.Location = new System.Drawing.Point(0, 697);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(225, 12);
             this.panel4.TabIndex = 5;
@@ -262,13 +261,12 @@
             // 
             // pnlSecundario
             // 
-            this.pnlSecundario.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSecundario.BackColor = System.Drawing.Color.White;
-            this.pnlSecundario.Location = new System.Drawing.Point(255, 35);
+            this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pnlSecundario.Location = new System.Drawing.Point(-121, 30);
             this.pnlSecundario.Name = "pnlSecundario";
-            this.pnlSecundario.Padding = new System.Windows.Forms.Padding(0, 0, 0, 400);
-            this.pnlSecundario.Size = new System.Drawing.Size(1101, 708);
+            this.pnlSecundario.Padding = new System.Windows.Forms.Padding(10, 10, 10, 15);
+            this.pnlSecundario.Size = new System.Drawing.Size(1101, 712);
             this.pnlSecundario.TabIndex = 6;
             // 
             // Menu
@@ -276,12 +274,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            this.ClientSize = new System.Drawing.Size(1386, 765);
+            this.ClientSize = new System.Drawing.Size(1000, 762);
             this.Controls.Add(this.pnlSecundario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
+            this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menu_Load);
