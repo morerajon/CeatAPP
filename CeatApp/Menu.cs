@@ -27,6 +27,7 @@ namespace CeatApp
 
         private void FormHijo(Form formhijo)
         {
+            pnlSecundario.BackgroundImage = null;
             if (formActivo != null) formActivo.Close();
             formhijo.TopLevel = false;
             formhijo.FormBorderStyle = FormBorderStyle.None;
@@ -73,6 +74,19 @@ namespace CeatApp
         private void Menu_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            foreach (Form form in Application.OpenForms)
+            {
+                
+                if (form != this)
+                {
+                    form.Hide();
+                }
+            }
+            pnlSecundario.BackgroundImage = Image.FromFile(path+"manosfondo.jpg");
         }
 
        

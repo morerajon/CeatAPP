@@ -117,4 +117,83 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column10.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnBuscar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAXdJREFUSEvtlK1LQ3EYhaeoiMwiC4M1EYfGLZgEu8EoiBhErIr4D9isi1ObwSJW
+        s8Uk2DRaFBRBBD+xzOe4s+vgOr37uGq4Dzzhnvf9/Q5j2021SqVSGZV+/B0onMNHfMFFx/FBSQ9uunAJ
+        5/EJy9jntc7CxTk8xgssOFZecKZZztlynZMfi63A4Sm8xkMcchygzLMb1K44w1ssey06HOrCdXzDDez2
+        KIRm3tGuKKK+guaKOTCI+3iH045/RLs+c4B7GL2Y5XE8x1McdhwZnfFZseX4e1icwXvcxQHHTcPZftzG
+        B5x1HIZh7a/yiiuO24a7FvAZ9X33Oq5CkMUjvMQJxx1Dd/pudWRrYR6vUL/G5n/6EdHd7lDXmIIRXMUd
+        jLtYHWuYdxwM4i4O3/9vi5llsP4d/JUZr4dg1nKxXoHipIGi6PUQzNor9mMIzSApDmCWFFdpODC6FJPi
+        AM0gKQ5g1rC4pJMxU3LdJ4Rp1KeK07Tr/opU6h2n9M8BPvEskwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnBorrarAlumno.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAXdJREFUSEvtlK1LQ3EYhaeoiMwiC4M1EYfGLZgEu8EoiBhErIr4D9isi1ObwSJW
+        s8Uk2DRaFBRBBD+xzOe4s+vgOr37uGq4Dzzhnvf9/Q5j2021SqVSGZV+/B0onMNHfMFFx/FBSQ9uunAJ
+        5/EJy9jntc7CxTk8xgssOFZecKZZztlynZMfi63A4Sm8xkMcchygzLMb1K44w1ssey06HOrCdXzDDez2
+        KIRm3tGuKKK+guaKOTCI+3iH045/RLs+c4B7GL2Y5XE8x1McdhwZnfFZseX4e1icwXvcxQHHTcPZftzG
+        B5x1HIZh7a/yiiuO24a7FvAZ9X33Oq5CkMUjvMQJxx1Dd/pudWRrYR6vUL/G5n/6EdHd7lDXmIIRXMUd
+        jLtYHWuYdxwM4i4O3/9vi5llsP4d/JUZr4dg1nKxXoHipIGi6PUQzNor9mMIzSApDmCWFFdpODC6FJPi
+        AM0gKQ5g1rC4pJMxU3LdJ4Rp1KeK07Tr/opU6h2n9M8BPvEskwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnModificarAlumno.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAXdJREFUSEvtlK1LQ3EYhaeoiMwiC4M1EYfGLZgEu8EoiBhErIr4D9isi1ObwSJW
+        s8Uk2DRaFBRBBD+xzOe4s+vgOr37uGq4Dzzhnvf9/Q5j2021SqVSGZV+/B0onMNHfMFFx/FBSQ9uunAJ
+        5/EJy9jntc7CxTk8xgssOFZecKZZztlynZMfi63A4Sm8xkMcchygzLMb1K44w1ssey06HOrCdXzDDez2
+        KIRm3tGuKKK+guaKOTCI+3iH045/RLs+c4B7GL2Y5XE8x1McdhwZnfFZseX4e1icwXvcxQHHTcPZftzG
+        B5x1HIZh7a/yiiuO24a7FvAZ9X33Oq5CkMUjvMQJxx1Dd/pudWRrYR6vUL/G5n/6EdHd7lDXmIIRXMUd
+        jLtYHWuYdxwM4i4O3/9vi5llsP4d/JUZr4dg1nKxXoHipIGi6PUQzNor9mMIzSApDmCWFFdpODC6FJPi
+        AM0gKQ5g1rC4pJMxU3LdJ4Rp1KeK07Tr/opU6h2n9M8BPvEskwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnNuevoAlumno.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAXdJREFUSEvtlK1LQ3EYhaeoiMwiC4M1EYfGLZgEu8EoiBhErIr4D9isi1ObwSJW
+        s8Uk2DRaFBRBBD+xzOe4s+vgOr37uGq4Dzzhnvf9/Q5j2021SqVSGZV+/B0onMNHfMFFx/FBSQ9uunAJ
+        5/EJy9jntc7CxTk8xgssOFZecKZZztlynZMfi63A4Sm8xkMcchygzLMb1K44w1ssey06HOrCdXzDDez2
+        KIRm3tGuKKK+guaKOTCI+3iH045/RLs+c4B7GL2Y5XE8x1McdhwZnfFZseX4e1icwXvcxQHHTcPZftzG
+        B5x1HIZh7a/yiiuO24a7FvAZ9X33Oq5CkMUjvMQJxx1Dd/pudWRrYR6vUL/G5n/6EdHd7lDXmIIRXMUd
+        jLtYHWuYdxwM4i4O3/9vi5llsP4d/JUZr4dg1nKxXoHipIGi6PUQzNor9mMIzSApDmCWFFdpODC6FJPi
+        AM0gKQ5g1rC4pJMxU3LdJ4Rp1KeK07Tr/opU6h2n9M8BPvEskwAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

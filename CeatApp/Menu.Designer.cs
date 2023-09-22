@@ -235,6 +235,7 @@
             this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             this.btnHome.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
             this.btnHome.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
@@ -262,6 +263,8 @@
             // pnlSecundario
             // 
             this.pnlSecundario.BackColor = System.Drawing.Color.White;
+            this.pnlSecundario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlSecundario.BackgroundImage")));
+            this.pnlSecundario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnlSecundario.Location = new System.Drawing.Point(-121, 30);
             this.pnlSecundario.Name = "pnlSecundario";
@@ -275,9 +278,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
             this.ClientSize = new System.Drawing.Size(1000, 762);
-            this.Controls.Add(this.pnlSecundario);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.pnlSecundario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Menu";
             this.Padding = new System.Windows.Forms.Padding(20, 30, 20, 20);
