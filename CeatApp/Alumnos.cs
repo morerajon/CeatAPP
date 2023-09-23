@@ -16,7 +16,7 @@ namespace CeatApp
         //creamos un objeto con la estructura de una tabla para recibir los datos
         DataTable Tabla = new DataTable();
 
-        int id;
+        //int id;
         public Alumnos()
         {
             InitializeComponent();
