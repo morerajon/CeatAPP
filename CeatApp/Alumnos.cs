@@ -31,7 +31,7 @@ namespace CeatApp
             //ejecutamos el método Leer de la clase ConexionConBD y el objeto
             //DataTable asigna el resultado a su estructura
 
-            Tabla.Load(claseConexion.Leer("SELECT * FROM Alumno "));
+            Tabla.Load(claseConexion.Leer("SELECT Alumno_Nombres as Nombre,Alumno_Apellidos as Apellido, Alumno_Dni as DNI, Alumno_Nacimiento as Nacimiento, Alumno_Sexo as Sexo, Alumno_Nacionalidad as Nacionalidad, Alumno_AñoAdmision as Ingreso, Alumno_Seccion as Seccion, Alumno_FechaRetiro as Retiro, Alumno_CausaRetiro as Causa FROM Alumno "));
 
             //Asignamos el orígen de los datos de la grilla
 
