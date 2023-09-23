@@ -262,7 +262,7 @@
             // 
             // pnlSecundario
             // 
-            this.pnlSecundario.BackColor = System.Drawing.Color.White;
+            this.pnlSecundario.BackColor = System.Drawing.Color.Gainsboro;
             this.pnlSecundario.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlSecundario.BackgroundImage")));
             this.pnlSecundario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnlSecundario.Dock = System.Windows.Forms.DockStyle.Right;
