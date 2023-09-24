@@ -44,6 +44,10 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\cine\cine\Transitions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumnos.cs">
@@ -60,6 +64,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMensajes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMensajes.Designer.cs">
+      <DependentUpon>FormMensajes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPerfil.Designer.cs">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeguridad.Designer.cs">
+      <DependentUpon>FormSeguridad.cs</DependentUpon>
+    </Compile>
     <Compile Include="logica.cs" />
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -73,6 +95,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMensajes.resx">
+      <DependentUpon>FormMensajes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerfil.resx">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeguridad.resx">
+      <DependentUpon>FormSeguridad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

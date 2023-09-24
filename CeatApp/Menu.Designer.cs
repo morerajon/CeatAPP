@@ -136,6 +136,7 @@
             this.btnCerrarSesion1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCerrarSesion1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCerrarSesion1.UseVisualStyleBackColor = false;
+            this.btnCerrarSesion1.Click += new System.EventHandler(this.btnCerrarSesion1_Click);
             this.btnCerrarSesion1.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
             this.btnCerrarSesion1.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
@@ -167,6 +168,7 @@
             this.btnClaves.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClaves.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnClaves.UseVisualStyleBackColor = false;
+            this.btnClaves.Click += new System.EventHandler(this.btnClaves_Click);
             this.btnClaves.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
             this.btnClaves.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
@@ -189,6 +191,7 @@
             this.btnMensajes.Text = "    Mensajes";
             this.btnMensajes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnMensajes.UseVisualStyleBackColor = false;
+            this.btnMensajes.Click += new System.EventHandler(this.btnMensajes_Click);
             this.btnMensajes.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
             this.btnMensajes.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 
@@ -212,6 +215,7 @@
             this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPerfil.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPerfil.UseVisualStyleBackColor = false;
+            this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             this.btnPerfil.MouseEnter += new System.EventHandler(this.btn_MouseEnter);
             this.btnPerfil.MouseLeave += new System.EventHandler(this.btn_MouseLeave);
             // 

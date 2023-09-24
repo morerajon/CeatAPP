@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
+
 namespace CeatApp
 {
     public partial class Alumnos : Form
@@ -21,6 +23,10 @@ namespace CeatApp
         {
             InitializeComponent();
             logica.RedondearBordes(this, 40);
+            logica.RedondearBordes(btnNuevoAlumno, 40);
+            logica.RedondearBordes(btnBorrarAlumno, 40);
+            logica.RedondearBordes(btnBuscar,40);
+            logica.RedondearBordes(btnModificarAlumno,40);
            
         }
 
@@ -40,6 +46,16 @@ namespace CeatApp
             //Cerramos la conexión. Siempre desconectamos al terminar!
 
             claseConexion.Desconectar();
+        }
+
+        private void btnAlumnos_MouseEnter(object sender, EventArgs e)
+        {
+            Button boton = (Button)sender;
+            int x = boton.Location.X;
+            int y = boton.Location.Y;
+
+
+           
         }
     //    private void dataElectro_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
     //    {

@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alumnos));
             this.label1 = new System.Windows.Forms.Label();
             this.dgvAlumnos = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnNuevoAlumno = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnBorrarAlumno = new System.Windows.Forms.Button();
             this.btnModificarAlumno = new System.Windows.Forms.Button();
-            this.btnNuevoAlumno = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -46,8 +46,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(191)))), ((int)(((byte)(201)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(10, 5);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
@@ -59,33 +60,33 @@
             // 
             this.dgvAlumnos.AllowUserToAddRows = false;
             this.dgvAlumnos.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.SkyBlue;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.SkyBlue;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dgvAlumnos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.SkyBlue;
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.SkyBlue;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dgvAlumnos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.dgvAlumnos.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvAlumnos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvAlumnos.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvAlumnos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvAlumnos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvAlumnos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.dgvAlumnos.ColumnHeadersHeight = 20;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Honeydew;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SteelBlue;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvAlumnos.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Honeydew;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvAlumnos.DefaultCellStyle = dataGridViewCellStyle18;
             this.dgvAlumnos.EnableHeadersVisualStyles = false;
             this.dgvAlumnos.Location = new System.Drawing.Point(15, 36);
             this.dgvAlumnos.Margin = new System.Windows.Forms.Padding(2);
@@ -111,6 +112,27 @@
             this.panel1.Size = new System.Drawing.Size(66, 692);
             this.panel1.TabIndex = 2;
             // 
+            // btnNuevoAlumno
+            // 
+            this.btnNuevoAlumno.BackColor = System.Drawing.Color.Transparent;
+            this.btnNuevoAlumno.FlatAppearance.BorderSize = 0;
+            this.btnNuevoAlumno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnNuevoAlumno.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
+            this.btnNuevoAlumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoAlumno.ForeColor = System.Drawing.Color.White;
+            this.btnNuevoAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoAlumno.Image")));
+            this.btnNuevoAlumno.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNuevoAlumno.Location = new System.Drawing.Point(12, 241);
+            this.btnNuevoAlumno.Margin = new System.Windows.Forms.Padding(2);
+            this.btnNuevoAlumno.Name = "btnNuevoAlumno";
+            this.btnNuevoAlumno.Size = new System.Drawing.Size(249, 54);
+            this.btnNuevoAlumno.TabIndex = 1;
+            this.btnNuevoAlumno.Text = "   Nuevo Alumno";
+            this.btnNuevoAlumno.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnNuevoAlumno.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNuevoAlumno.UseVisualStyleBackColor = false;
+            // 
             // btnBuscar
             // 
             this.btnBuscar.BackColor = System.Drawing.Color.Transparent;
@@ -121,11 +143,11 @@
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.Color.White;
             this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
-            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(4, 328);
+            this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBuscar.Location = new System.Drawing.Point(12, 361);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(49, 48);
+            this.btnBuscar.Size = new System.Drawing.Size(249, 54);
             this.btnBuscar.TabIndex = 4;
             this.btnBuscar.Text = "   Buscar Alumno";
             this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -142,11 +164,11 @@
             this.btnBorrarAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBorrarAlumno.ForeColor = System.Drawing.Color.White;
             this.btnBorrarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnBorrarAlumno.Image")));
-            this.btnBorrarAlumno.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnBorrarAlumno.Location = new System.Drawing.Point(6, 377);
+            this.btnBorrarAlumno.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBorrarAlumno.Location = new System.Drawing.Point(12, 424);
             this.btnBorrarAlumno.Margin = new System.Windows.Forms.Padding(2);
             this.btnBorrarAlumno.Name = "btnBorrarAlumno";
-            this.btnBorrarAlumno.Size = new System.Drawing.Size(47, 48);
+            this.btnBorrarAlumno.Size = new System.Drawing.Size(249, 54);
             this.btnBorrarAlumno.TabIndex = 3;
             this.btnBorrarAlumno.Text = "   Borrar Alumno";
             this.btnBorrarAlumno.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -163,43 +185,22 @@
             this.btnModificarAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnModificarAlumno.ForeColor = System.Drawing.Color.White;
             this.btnModificarAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarAlumno.Image")));
-            this.btnModificarAlumno.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnModificarAlumno.Location = new System.Drawing.Point(6, 276);
+            this.btnModificarAlumno.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnModificarAlumno.Location = new System.Drawing.Point(12, 299);
             this.btnModificarAlumno.Margin = new System.Windows.Forms.Padding(2);
             this.btnModificarAlumno.Name = "btnModificarAlumno";
-            this.btnModificarAlumno.Size = new System.Drawing.Size(49, 48);
+            this.btnModificarAlumno.Size = new System.Drawing.Size(249, 54);
             this.btnModificarAlumno.TabIndex = 2;
             this.btnModificarAlumno.Text = "   Modificar Alumno";
             this.btnModificarAlumno.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnModificarAlumno.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnModificarAlumno.UseVisualStyleBackColor = false;
             // 
-            // btnNuevoAlumno
-            // 
-            this.btnNuevoAlumno.BackColor = System.Drawing.Color.Transparent;
-            this.btnNuevoAlumno.FlatAppearance.BorderSize = 0;
-            this.btnNuevoAlumno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            this.btnNuevoAlumno.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(29)))), ((int)(((byte)(39)))));
-            this.btnNuevoAlumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevoAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoAlumno.ForeColor = System.Drawing.Color.White;
-            this.btnNuevoAlumno.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoAlumno.Image")));
-            this.btnNuevoAlumno.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnNuevoAlumno.Location = new System.Drawing.Point(8, 224);
-            this.btnNuevoAlumno.Margin = new System.Windows.Forms.Padding(2);
-            this.btnNuevoAlumno.Name = "btnNuevoAlumno";
-            this.btnNuevoAlumno.Size = new System.Drawing.Size(47, 48);
-            this.btnNuevoAlumno.TabIndex = 1;
-            this.btnNuevoAlumno.Text = "   Nuevo Alumno";
-            this.btnNuevoAlumno.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNuevoAlumno.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNuevoAlumno.UseVisualStyleBackColor = false;
-            // 
             // Alumnos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(191)))), ((int)(((byte)(201)))));
             this.ClientSize = new System.Drawing.Size(1081, 692);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgvAlumnos);

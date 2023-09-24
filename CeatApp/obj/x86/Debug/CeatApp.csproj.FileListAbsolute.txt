@@ -8,3 +8,7 @@ C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.pdb
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.csprojResolveAssemblyReference.cache
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.Menu.resources
 C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.Alumnos.resources
+C:\CeatApp\CeatApp\bin\Debug\Transitions.dll
+C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.FormPerfil.resources
+C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.FormMensajes.resources
+C:\CeatApp\CeatApp\obj\x86\Debug\CeatApp.FormSeguridad.resources

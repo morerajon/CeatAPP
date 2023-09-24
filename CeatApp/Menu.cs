@@ -89,6 +89,28 @@ namespace CeatApp
             pnlSecundario.BackgroundImage = Image.FromFile(path+"manosfondo.jpg");
         }
 
+        private void btnPerfil_Click(object sender, EventArgs e)
+        {
+            FormHijo(new FormPerfil());
+        }
+
+        private void btnMensajes_Click(object sender, EventArgs e)
+        {
+            FormHijo(new FormMensajes());
+        }
+
+        private void btnClaves_Click(object sender, EventArgs e)
+        {
+            FormHijo(new FormSeguridad());
+        }
+
+        private void btnCerrarSesion1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login log = new Login();
+            log.Show();
+        }
+
        
 
         
