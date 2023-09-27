@@ -15,9 +15,17 @@ namespace CeatApp
         {
             InitializeComponent();
             BordesRedondeados.RedondearBordes(this, 40);
+            BordesRedondeados.RedondearBordes(pnlUsuario, 40);
+            BordesRedondeados.RedondearBordes(pBFoto,90);
+            BordesRedondeados.RedondearBordes(pnlContacto, 40);
         }
 
         private void FormPerfil_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlUsuario_Paint(object sender, PaintEventArgs e)
         {
 
         }
