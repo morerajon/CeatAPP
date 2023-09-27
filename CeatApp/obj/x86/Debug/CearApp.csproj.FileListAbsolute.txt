@@ -1,0 +1,10 @@
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.Alumnos.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.Login.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.FormMensajes.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.FormPerfil.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.FormSeguridad.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.Menu.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.Properties.Resources.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CearApp.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CeatApp.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\CeatApp\obj\x86\Debug\CearApp.csprojResolveAssemblyReference.cache

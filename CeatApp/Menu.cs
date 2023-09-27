@@ -19,8 +19,8 @@ namespace CeatApp
         public Menu()
         {
             InitializeComponent();
-            logica.RedondearBordes(panel1, 20);
-            logica.RedondearBordes(pnlSecundario,20);
+            BordesRedondeados.RedondearBordes(panel1, 20);
+            BordesRedondeados.RedondearBordes(pnlSecundario, 20);
             
         }
 
@@ -49,7 +49,7 @@ namespace CeatApp
         private void btn_MouseLeave(object sender, EventArgs e)
         {
             Button boton = (Button)sender;
-            logica.RedondearBordes(boton, 0);
+            BordesRedondeados.RedondearBordes(boton, 0);
             boton.ForeColor = Color.White;
             boton.Image = Image.FromFile(path + boton.Name + "A.png");
             boton.ImageAlign = ContentAlignment.MiddleLeft;
@@ -59,7 +59,7 @@ namespace CeatApp
         {
             
             Button boton = (Button)sender;
-            logica.RedondearBordes(boton, 70);
+            BordesRedondeados.RedondearBordes(boton, 70);
             if (boton.Name != "btnCerrarSesion1") boton.ForeColor = Color.Cyan;
             boton.Image = Image.FromFile(path + boton.Name + "B.png");
             boton.ImageAlign = ContentAlignment.MiddleCenter;

@@ -14,7 +14,7 @@ namespace CeatApp
         public FormPerfil()
         {
             InitializeComponent();
-            logica.RedondearBordes(this, 40);
+            BordesRedondeados.RedondearBordes(this, 40);
         }
 
         private void FormPerfil_Load(object sender, EventArgs e)

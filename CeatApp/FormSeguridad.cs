@@ -14,7 +14,7 @@ namespace CeatApp
         public FormSeguridad()
         {
             InitializeComponent();
-            logica.RedondearBordes(this, 40);
+            BordesRedondeados.RedondearBordes(this, 40);
         }
 
         private void FormSeguridad_Load(object sender, EventArgs e)

@@ -1,0 +1,6 @@
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\bin\Debug\Datos.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\bin\Debug\Datos.pdb
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\obj\x86\Debug\Datos.Properties.Resources.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\obj\x86\Debug\Datos.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\obj\x86\Debug\Datos.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Datos\obj\x86\Debug\Datos.pdb

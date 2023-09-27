@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Datos;
 
 
 
@@ -14,7 +15,7 @@ namespace CeatApp
     public partial class Alumnos : Form
     {
         //creamos una instancia de la clase para acceder a los métodos creados
-        ConexionConBD claseConexion = new ConexionConBD();
+        Conexion claseConexion = new Conexion();
         //creamos un objeto con la estructura de una tabla para recibir los datos
         DataTable Tabla = new DataTable();
 
@@ -22,11 +23,11 @@ namespace CeatApp
         public Alumnos()
         {
             InitializeComponent();
-            logica.RedondearBordes(this, 40);
-            logica.RedondearBordes(btnNuevoAlumno, 40);
-            logica.RedondearBordes(btnBorrarAlumno, 40);
-            logica.RedondearBordes(btnBuscar,40);
-            logica.RedondearBordes(btnModificarAlumno,40);
+            BordesRedondeados.RedondearBordes(this, 40);
+            BordesRedondeados.RedondearBordes(btnNuevoAlumno, 40);
+            BordesRedondeados.RedondearBordes(btnBorrarAlumno, 40);
+            BordesRedondeados.RedondearBordes(btnBuscar, 40);
+            BordesRedondeados.RedondearBordes(btnModificarAlumno, 40);
            
         }
 

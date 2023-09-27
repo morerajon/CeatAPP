@@ -1,0 +1,9 @@
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\bin\Debug\Logica.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\bin\Debug\Logica.pdb
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\obj\x86\Debug\Logica.Properties.Resources.resources
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\obj\x86\Debug\Logica.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\obj\x86\Debug\Logica.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\obj\x86\Debug\Logica.pdb
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\obj\x86\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\bin\Debug\Datos.exe
+C:\Users\lenovo\Desktop\nina\CeatAPP-main\Logica\bin\Debug\Datos.pdb

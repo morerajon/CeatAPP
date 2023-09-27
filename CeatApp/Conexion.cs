@@ -5,12 +5,12 @@ using System.Text;
 using System.Data.OleDb;
 using System.Data;
 
-namespace CeatApp
+namespace Datos
 {
-    class ConexionConBD
+     public class Conexion
     {
             //creamos los objetos y variables a nivel clase
-            static private OleDbConnection Conexion;
+            static private OleDbConnection Conecta;
             static private OleDbCommand Orden;
             //Indicamos el nombre de la base de datos dentro de cadena de conexion
             static string strConexion = "Provider=Microsoft.Jet.OLEDB.4.0; " +
@@ -20,12 +20,12 @@ namespace CeatApp
             public OleDbDataReader Leer(string Consulta)
             {
                 //creamos la conexión con la base de datos
-                Conexion = new OleDbConnection(strConexion);
+                Conecta = new OleDbConnection(strConexion);
                 //establecemos la consulta dentro de la conexión
-                Orden = new OleDbCommand(Consulta, Conexion);
+                Orden = new OleDbCommand(Consulta, Conecta);
                 try
                 {
-                    Conexion.Open();//abrimos la conexion
+                    Conecta.Open();//abrimos la conexion
 
                     //ejecutamos la consulta y retornamos el resultado de tipo OleDbDataReader
 
@@ -44,8 +44,8 @@ namespace CeatApp
 
             public void Desconectar()
             {
-                if (Conexion.State == ConnectionState.Open)
-                    Conexion.Close();
+                if (Conecta.State == ConnectionState.Open)
+                    Conecta.Close();
             }
 
             public bool ABM(string Consulta)
@@ -53,12 +53,12 @@ namespace CeatApp
                 //variable de control
                 bool Resultado = false;
                 //creamos la conexión con la base de datos
-                Conexion = new OleDbConnection(strConexion);
+                Conecta = new OleDbConnection(strConexion);
                 //establecemos la consulta dentro de la conexión
-                Orden = new OleDbCommand(Consulta, Conexion);
+                Orden = new OleDbCommand(Consulta, Conecta);
                 try
                 {
-                    Conexion.Open();//abrimos la conexion
+                    Conecta.Open();//abrimos la conexion
                     //ejecutamos la consulta
                     Orden.ExecuteNonQuery();
 

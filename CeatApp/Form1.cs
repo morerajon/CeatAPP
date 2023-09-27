@@ -35,7 +35,7 @@ namespace CeatApp
         
         private void pBMostrarOcultar_Click(object sender, EventArgs e)
         {
-            logica.verOcultar(pBMostrarOcultar, iLVerOculartar, txtContrasenia, e);
+            //logica.verOcultar(pBMostrarOcultar, iLVerOculartar, txtContrasenia, e);
             
         }
 

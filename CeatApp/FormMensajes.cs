@@ -14,7 +14,7 @@ namespace CeatApp
         public FormMensajes()
         {
             InitializeComponent();
-            logica.RedondearBordes(this,40);
+            BordesRedondeados.RedondearBordes(this,40);
         }
 
         private void FormMensajes_Load(object sender, EventArgs e)
